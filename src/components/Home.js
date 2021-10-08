@@ -1,23 +1,39 @@
+import React from 'react';
+import {Link} from 'react-router-dom';
+
 const Home = () => {
 
-    const handleClick = () => {
-        console.log('Hello from Home.js')
-    }
+    // const handleClick = () => {
+    //     console.log('Hello from Home.js')
+    // }
 
-    const handleClickAgain = (e) => {
-        console.log('hello ', e)
-    }
+    // const handleClickAgain = (e) => {
+    //     console.log('hello ', e)
+    // }
 
     return (
         <div className="home">
-                    <div className="links">
-                <a href="/">Home</a>
-                <a href="/login">Login</a>
-                <a href="/signup">Sign Up</a>
-            </div>
-            <div>
-                <h1>This is the home page</h1>
-            </div>
+          <div>
+            <h1>
+              Login Here.
+              <br />
+            </h1>
+            <Link to="/login"><button>
+            Login
+            </button>
+            </Link>
+          </div>
+          <div>
+            <h1>
+              Sign Up Here.
+              <br />
+            </h1>
+            <Link to="/SignUp"><button>
+            Submit
+            </button>
+            </Link>
+          </div>
+        
         </div>
     )
 }
