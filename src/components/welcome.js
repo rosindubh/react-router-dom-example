@@ -1,6 +1,6 @@
 const Welcome = () => {
     return (
-        <h2>This is the welcome page</h2>
+        <h2>WELCOME TO POSTCARD-PALS</h2>
       );
 }
  

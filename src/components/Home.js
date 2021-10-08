@@ -3,14 +3,6 @@ import {Link} from 'react-router-dom';
 
 const Home = () => {
 
-    // const handleClick = () => {
-    //     console.log('Hello from Home.js')
-    // }
-
-    // const handleClickAgain = (e) => {
-    //     console.log('hello ', e)
-    // }
-
     return (
         <div className="home">
           <div>
@@ -29,7 +21,7 @@ const Home = () => {
               <br />
             </h1>
             <Link to="/SignUp"><button>
-            Submit
+            Sign Up
             </button>
             </Link>
           </div>

@@ -9,7 +9,7 @@ const Login = () => {
             <input type="text" placeholder="email" />
             <input type="text" placeholder='password' />
             <Link to="/welcome"><button>
-            Submit
+            Login
             </button>
             </Link>
         </form>
