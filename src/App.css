@@ -4,6 +4,10 @@
   margin: 0px;
 }
 
+body {
+    background-image: url(./images/postcard-pals.png);
+}
+
 a {
   margin: 10px;
   text-decoration: none;
@@ -11,9 +15,16 @@ a {
 
 button {
   margin: 10px;
+  font-size: 20px;
 }
 
 .homepage {
   display: flex;
   justify-content: center;
+}
+
+input {
+  margin: 10px;
+  font-size: 20px
+
 }
